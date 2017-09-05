@@ -1,0 +1,26 @@
+.col-6{
+  width: 45%;
+  float: left;
+  margin: 0 2.5%;
+}
+
+
+
+@media screen and (max-width:481px) {
+  .col-6{
+    width: 100%;
+  }
+  .home-menu{
+    display: none;
+  }
+}
+@media screen and (max-width: 480px){
+.home-menu {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .logo-mobile{
+    display: none;
+  }
+}
