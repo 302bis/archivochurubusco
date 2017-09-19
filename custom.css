@@ -473,8 +473,13 @@ menu{
   ul.menu-contenido li a{
     text-decoration: none;
   }
+  .caption-img{
+    overflow: hidden;
+  }
   .logo-mobile{
+    overflow:hidden;
     margin-top: 30px;
+        width: 100%;
   }
   .archivo-tittle{
     font-size: 34px;
@@ -506,7 +511,7 @@ menu{
     padding: 0;
     position: absolute;
     left: 0;
-
+    z-index: 1;
   }
   .col-6 {
     margin: 0;
@@ -869,3 +874,10 @@ menu{
     text-decoration: none;
   }
 }
+@media (max-width: 767px) {
+
+.gridContainer{
+		min-height:500px;
+	}
+}
+
